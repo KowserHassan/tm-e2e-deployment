@@ -1,9 +1,10 @@
-# E2E - Containerised Threat Composer App Deployment 
+# E2E Deployment– Threat Composer App
 
 A containerised deployment of Amazon's open-source Threat Composer tool for threat modeling and security assessments, deployed on AWS ECS using Terraform and automated with GitHub Actions.
 
-🔗 Live Application  
-URL: https://tm.<kowserhassan.com> 
+🔗 Application Dashboard:
+![App Screenshot](images/app-ui.png)
+
 
 📋 Overview
 This project demonstrates a complete CI/CD pipeline and cloud deployment strategy for the Threat Composer application, featuring:
@@ -74,17 +75,9 @@ serve -s build
 - SSL/TLS: AWS Certificate Manager
 - CI/CD: GitHub Actions
 
-📸 Screenshots
-
-Application Dashboard:
-[Add screenshot of the live application dashboard]
-
 🤝 Contributing
 
 Fork the repository  
 Create a feature branch  
 Make your changes  
 Submit a pull request
-
-📄 License  
-This project follows the same license as the original Amazon Threat Composer tool.
